@@ -86,6 +86,44 @@ body {
   }
 }
 
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+
+  .tag-size-1 {
+    color: #e67e22;
+    font-size: 12px;
+    margin: 5px;
+   ;
+  }
+  .tag-size-2 {
+    color: #e74c3c;
+    font-size: 15px;
+    margin: 5px;
+  }
+  .tag-size-3 {
+    color: #c0392b;
+    font-size: 18px;
+    margin: 5px;
+  }
+  .tag-size-4 {
+    color: #8e44ad;
+    font-size: 21px;
+    margin: 5px;
+  }
+  .tag-size-5 {
+    color: #2980b9;
+    font-size: 24px;
+    margin: 5px;
+  }
+  .tag-size-6 {
+    color: #16a085;
+    font-size: 27px;
+    margin: 5px;
+  }
+}
+
 .list-horizontal {
   li {
     display: inline-block;
